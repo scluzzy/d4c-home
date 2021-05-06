@@ -5,32 +5,35 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out our.. (products?) </h1>
+      <h1>Check out our creations! </h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
                 /*props, which go to CardItem*/
-              src='images/snapdrop.jpg'
-              text='File sharing - abc..'
+              src='images/SHARELUX.png'
+              text='Share any file with anyone with just one link!'
               label='FILE SHARING'
               path='/file-share'
             />
             <CardItem
-              src='images/zoom.jpg'
-              text='Video Cnferencing - idk..'
+              src='images/JOYN.png'
+              text='Joyn and have a conference with anyone!'
               label='VIDEO CONFERENCING'
               path='/video-confr'
             />
             <CardItem
-              src='images/twitch.jpg'
-              text='Video streqming - help..'
+              src='images/VIDZILLA.png'
+              text='Watch videoz and chill!'
               label='VIDEO STREAMING'
               path='/video-stream'
             />
           </ul>
          
-          {/*<ul className='cards__items'>
+          {/*
+          //empty cards for future use
+
+          <ul className='cards__items'>
             <CardItem
               src='images/img-3.jpg'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters blah blah'
@@ -50,6 +53,7 @@ function Cards() {
               path='/sign-up'
             />
           </ul>*/}
+
         </div>
       </div>
     </div>
