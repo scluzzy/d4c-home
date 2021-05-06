@@ -26,7 +26,7 @@ function App() {
            return null;}}           
          />
         <Route path='/video-stream' component={() => { 
-           window.location.href = 'https://www.twitch.tv/'; 
+           window.location.href = 'http://localhost:3000/'; 
            return null;}}           
          /> 
           
