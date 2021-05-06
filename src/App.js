@@ -23,7 +23,7 @@ function App() {
            return null;}}           
          />
         <Route path='/video-confr' component={() => { 
-           window.location.href = 'https://zoom.us/'; 
+           window.location.href = 'https://joyn-g33.herokuapp.com/'; 
            return null;}}           
          />
         <Route path='/video-stream' component={() => { 

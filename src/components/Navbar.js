@@ -61,10 +61,6 @@ function Navbar() {
               </Link>
             </li> */}
 
-            <li className='nav-item'>
-            <a target="_blank" className='nav-links' href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Scluzzy</a>
-            </li> 
-
 
           </ul>
           { /*  {button && <Button path='/sign-up' buttonStyle='btn--outline'>SIGN UP</Button>}    */}        </div>
