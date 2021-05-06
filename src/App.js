@@ -40,7 +40,8 @@ function App() {
 export default App;
 
 
-/*
+/* For using external link as path in react-router:-
+
 <Route path='/privacy-policy' component={() => { 
      window.location.href = 'https://example.com/1234'; 
      return null;
