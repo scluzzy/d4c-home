@@ -29,11 +29,23 @@
     align-items: center;
   }
 
+  .navbar-logo .d4c-logo {
+    width: 40px;
+    margin-left: 2px;
+
+  }
+
   .navbar-logo:hover{
     color:#a200ff;
     transition: 0.269s ease-out;
 
+
   }
+ .navbar-logo .d4c-logo:hover{
+  transform: scale(1.1);
+  transition: 0.269s ease-out;
+  filter:hue-rotate(120deg);
+ }
   
   .fa-typo3 {
     margin-left: 0.5rem;
@@ -145,6 +157,8 @@
 
     .fa-bars:hover, .fa-times:hover{
       color: #a200ff;
+      transition: 0.269s ease-out;
+      
     }  
     
     .nav-links-mobile {

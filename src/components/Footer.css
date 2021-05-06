@@ -141,6 +141,20 @@
 
   }
   
+  
+ .d4c-logo {
+    width: 40px;
+    margin-left: 2px;
+
+  }
+
+  .d4c-logo:hover{
+   transform: scale(1.1);
+   transition: 0.269s ease-out;
+   filter:hue-rotate(120deg);
+ }
+  
+  
   .website-rights {
     color: #fff;
     margin-bottom: 16px;

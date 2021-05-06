@@ -67,7 +67,7 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               D4C
-              <i class='fab fa-typo3' />
+              <img src='./images/d4c-logo.jpg' className='d4c-logo'/> 
             </Link>
           </div>
           <small class='website-rights'>D4C © 2021</small>
