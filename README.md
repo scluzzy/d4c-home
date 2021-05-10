@@ -36,6 +36,9 @@ $ npm start
  ![image](https://user-images.githubusercontent.com/64918959/117671627-acb80180-b1b1-11eb-962c-33db28348821.png)
  ^to remove some errors showing/unshowing the buttons
  
+ ![image](https://user-images.githubusercontent.com/64918959/117721325-6631c980-b1e8-11eb-999b-5fbf589af7ef.png)
+ ^code to change colour of navbar on scroll 
+ 
  ![image](https://user-images.githubusercontent.com/64918959/117671762-d2450b00-b1b1-11eb-9711-91e2b5d9d5ea.png)
   ^'onclick' closes mobile menu and 'Link' opens given path /" "
   
