@@ -15,7 +15,7 @@ $ npm start
 ```
 
 ### How it works?
- ###### ps- doesnt include the working of d4c apps refer to their workings respectively. (given down below)
+ ###### ps- doesnt include the working of d4c apps refer to their workings respectively. (its given down in the end)
  albruh albruh
  
  
