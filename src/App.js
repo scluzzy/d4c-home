@@ -6,6 +6,8 @@ import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
+import AboutUs from './components/pages/AboutUs';
+import ContactUs from './components/pages/ContactUs';
 
 
 /* In the app function we see the use of router component 
@@ -22,6 +24,9 @@ function App() {
         <Route path='/services' exact component= {Services} />
         <Route path='/products' exact component= {Products} />
         <Route path='/sign-up' exact component= {SignUp} />
+        <Route path='/about-us' exact component= {AboutUs} />
+        <Route path='/contact-us' exact component= {ContactUs} />
+        
         <Route path='/file-share' component={() => { 
            window.location.href = 'https://logu-fosablanca.github.io/Sharelux-g33/'; 
            return null;}}           

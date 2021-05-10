@@ -31,11 +31,24 @@ function Navbar() {
   useEffect( () => {  showButton();} , []);
 
 
-  
+
+  //code to change colour of navbar on scroll 
+  const [navbar,setNavbar] = useState(false);
+  const changeBackground = () => {
+    if(window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);    
+    }    
+  };
+  window.addEventListener('scroll', changeBackground);
+
+
+
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className={navbar ? 'navbar active' : 'navbar'} >  {/*if scrolls set class to navbar active */}
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}> {/*'onclick' closes mobile menu and 'Link' opens given path /" "  */}
             D4C <img src='./images/d4c-logo.jpg' className='d4c-logo'/> 
@@ -43,7 +56,7 @@ function Navbar() {
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} /> {/*'click' changes the menu icon to close icon if true*/}
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}> {/*'click' changes the close icon to menu icon if false*/}        
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}> {/*'click'  activates small nav menu */}        
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Home

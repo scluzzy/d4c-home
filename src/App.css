@@ -16,6 +16,16 @@
   font-size: 3rem;
 }
 
+.page-heading{
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+
+
 .services {
   
   /*background-image: url('/d4c-home/public/images/img-2.jpg');*/
@@ -24,6 +34,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  
   font-size: 100px;
 }
 

@@ -2,12 +2,16 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+import Zoom from 'react-reveal';
 
+
+/* This function is used to load the section under the navbar in the home page*/
 
 function HeroSection() {
     return (
         <div className='hero-container'>
             <video src="/videos/video-2.mp4" autoPlay loop muted />
+               <Zoom >
                 <h1>Connect To The World!</h1>
                 <p>Get started</p>
                 <div className="hero-btns">
@@ -21,7 +25,7 @@ function HeroSection() {
                         VIDEO STREAMING
                     </Button>
                 </div>
-            
+                </Zoom>
         </div>
     )
 };

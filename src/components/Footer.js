@@ -26,9 +26,9 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Terms of Service</Link>
-            <Link to='/'>Our Story</Link>
+            <Link to='/about-us'>How it works</Link>
+            <Link to='/about-us'>Terms of Service</Link>
+            <Link to='/about-us'>Our Story</Link>
             {/*<Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>*/}
@@ -38,8 +38,8 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
+            <Link to='/contact-us'>Contact</Link>
+            <Link to='/contact-us'>Support</Link>
             {/*<Link to='/'>Destinations</Link>
             <Link to='/'>Sponsorships</Link>*/}
           </div>
@@ -84,7 +84,7 @@ function Footer() {
 
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to='/contact-us'
               target='_blank'
               aria-label='Instagram'>            
               <i class='fab fa-instagram' />
@@ -100,7 +100,7 @@ function Footer() {
 
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='/contact-us'
               target='_blank'
               aria-label='Twitter'>            
               <i class='fab fa-twitter' />
@@ -108,7 +108,7 @@ function Footer() {
 
             <Link
               class='social-icon-link linkedIn'
-              to='/'
+              to='/contact-us'
               target='_blank'
               aria-label='LinkedIn'>            
               <i class='fab fa-linkedin' />
