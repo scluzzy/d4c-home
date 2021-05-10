@@ -1,6 +1,7 @@
 ## Homepage Using React
 
-This project includes a homepage for d4c © created using reactJS. It will be using react router and react hooks, which has a working navbar, some button and card components which lead to specific pages.
+### What is is?
+This project includes a homepage for d4c © link-https://d4c-home.herokuapp.com/ created using reactJS. It will be using react router and react hooks. It  has a working navbar, some button and card components which lead to specific pages.
 
 ### How to start using this project?
 
