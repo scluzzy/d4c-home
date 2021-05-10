@@ -23,11 +23,11 @@ $ npm start
  ###### ps- doesnt include the working of d4c apps refer to their workings respectively. (its given down in the end)
  
 
-### App() in App.js
+#### App() in App.js
  In the App function we see the use of Router component from react-router-dom which is a tool that helps in routing to inbuilt paths like the home page, services, and other modules.
  
  
-### Navbar() in Navbar.js
+#### Navbar() in Navbar.js
  This function is used to show the navbar, in this function we use hooks and usestate(). <Link> is basically <a> from react-router-dom.
  
  ![image](https://user-images.githubusercontent.com/64918959/117671527-8d20d900-b1b1-11eb-85f4-27bdded3ee40.png)
@@ -46,7 +46,7 @@ $ npm start
   ^'click' changes the close icon to menu icon if false
   
 
-### Button() in Button.js
+#### Button() in Button.js
  This function is basically used to load custom button components by varying different styles and sizes.
 
  ![image](https://user-images.githubusercontent.com/64918959/117672974-053bce80-b1b3-11eb-8a71-bd53af58e753.png)
@@ -56,19 +56,19 @@ $ npm start
  ^fn checks and applies button stize[medium,large]
 
 
-### Herosection() in Herosection.js
+#### Herosection() in Herosection.js
  This function is used to load the section under the navbar in the home page.
  
  
-### Cards() in Cards.js
+#### Cards() in Cards.js
  This function is used to load the section under the herosection in the home page.
  
  
-### CardItem() in CardItem.js 
+#### CardItem() in CardItem.js 
  This function is used to take in props/parameters from Cards.js and make and show the card components using those props in the cards section of the homepage.
  
  
-### Footer() in Footer.js
+#### Footer() in Footer.js
  This function is used to show/call the footer component.
  
 
