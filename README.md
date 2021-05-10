@@ -46,7 +46,7 @@ $ npm start
   ^'click' changes the menu icon to close icon if true
   
  ![image](https://user-images.githubusercontent.com/64918959/117671995-11735c00-b1b2-11eb-8999-7945f26297a4.png)
-  ^'click' changes the close icon to menu icon if false
+  ^'click'  activates the small nav menu if true
   
 
 #### Button() in Button.js
