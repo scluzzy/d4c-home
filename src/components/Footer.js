@@ -3,6 +3,8 @@ import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
+/*This function is used to show/call the footer component */
+
 function Footer() {
   return (
     <div className='footer-container'>

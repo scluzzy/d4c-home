@@ -3,6 +3,11 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
+/* This function is used to show the navbar, in this function 
+we use hooks and usestate(). <Link> is basically <a> from 
+react-router-dom.
+*/
+
 function Navbar() {
   const [click, setClick] = useState(false);
 
@@ -12,7 +17,7 @@ function Navbar() {
 
   const closeMobileMenu = () => setClick(false);
 
-  //fn to set width for mobile menu
+  //fn to hide buttons for mobile menu (when resize window)
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -22,7 +27,7 @@ function Navbar() {
   };
   window.addEventListener('resize', showButton);
   
-
+  //to remove some errors showing/unshowing the buttons
   useEffect( () => {  showButton();} , []);
 
 
@@ -32,13 +37,13 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}> {/*'onclick' closes mobile menu and 'Link' opens given path /" "  */}
             D4C <img src='./images/d4c-logo.jpg' className='d4c-logo'/> 
           </Link>
           <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} /> {/*'click' changes the menu icon to close icon if true*/}
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}> {/*to close mobile menu*/}        
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}> {/*'click' changes the close icon to menu icon if false*/}        
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Home
@@ -63,13 +68,20 @@ function Navbar() {
 
 
           </ul>
-          { /*  {button && <Button path='/sign-up' buttonStyle='btn--outline'>SIGN UP</Button>}    */}        </div>
+
+            {/*if want to include a button*/}
+          { /*  {button && <Button path='/sign-up' buttonStyle='btn--outline'>SIGN UP</Button>}    */}        
+
+        </div>
       </nav>
     </>
   );
 }
 
 export default Navbar;
+
+
+
 
 /*
 There is no need to use <Link /> component from react-router.

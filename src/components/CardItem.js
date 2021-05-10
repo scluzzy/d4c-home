@@ -1,7 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function CardItem(props) {/*props called in Cards.js*/
+/* This function is used to take in props/parameters from 
+Cards.js and make and show the card components using those 
+props in the cards section of the homepage */
+
+function CardItem(props) {/*props, called in Cards.js*/
   return (
     <>
       <li className='cards__item'>

@@ -2,6 +2,8 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
+/* This function is used to load the section under the herosection in the home page*/
+
 function Cards() {
   return (
     <div className='cards'>
@@ -18,13 +20,13 @@ function Cards() {
             />
             <CardItem
               src='images/JOYN.png'
-              text='Joyn and have a conference with anyone!'
+              text='Joyn© and have a conference with anyone!'
               label='VIDEO CONFERENCING'
               path='/video-confr'
             />
             <CardItem
               src='images/VIDZILLA.png'
-              text='Watch videoz and chill!'
+              text='Watch videoz and chill!, using Vidzilla©.'
               label='VIDEO STREAMING'
               path='/video-stream'
             />

@@ -7,6 +7,11 @@ import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
 
+
+/* In the app function we see the use of router component 
+from react-router-dom which is a tool that helps in routing 
+to inbuilt paths like the home page, services, and other modules */
+
 function App() {
   return (
     <>
@@ -18,7 +23,7 @@ function App() {
         <Route path='/products' exact component= {Products} />
         <Route path='/sign-up' exact component= {SignUp} />
         <Route path='/file-share' component={() => { 
-           window.location.href = 'https://send.creativeshi.com/'; 
+           window.location.href = 'https://logu-fosablanca.github.io/Sharelux-g33/'; 
            return null;}}           
          />
         <Route path='/video-confr' component={() => { 
