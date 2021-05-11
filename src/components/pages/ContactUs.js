@@ -1,12 +1,20 @@
 import React from 'react';
 import '../../App.css';
+import Footer from '../Footer';
 
 function ContactUs() {
     return (
+    <>    
         <div>
             <p className='page-heading'> Contact Us</p>
-            <Footer />
+            <p>       
+            
+            </p>
+            
         </div>
+        
+        <Footer />
+    </>    
     )
 };
 

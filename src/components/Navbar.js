@@ -67,12 +67,12 @@ function Navbar() {
                 Services
               </Link>
             </li>
-            {/*<li className='nav-item'>
+            {/*
+            <li className='nav-item'>
               <Link to='/about-us' className='nav-links' onClick={closeMobileMenu}>
                 About Us
               </Link>
-            </li>
-            
+            </li>            
             <li>
               <Link to='/contact-us' className='nav-links-mobile' onClick={closeMobileMenu}>
                 Contact Us
