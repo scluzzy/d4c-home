@@ -13,6 +13,7 @@ Install NodeJS, ReactJS, git & your favourite text editor (VScode) in your machi
 $ git clone https://github.com/scluzzy/d4c-home
 $ cd d4c-home
 $ npm install react-router-dom
+$ npm install aos 
 $ npm start
 
 ```
