@@ -18,10 +18,41 @@
 
 .page-heading{
   display: flex;
-  padding-top: 50px;
+  margin: 100px auto 75px auto;
   align-items: center;
   justify-content: center;
   font-size: 30px;
+}
+
+.page-body{
+  margin: 30px  auto 80px auto;
+  font-size: 20px;
+  width: 60%;
+  text-align: justify;
+}
+
+.about-wrap{
+  justify-content: center;
+
+}
+
+.aboutpic{
+  width:100%;
+}
+
+
+.da-table{
+margin:15px auto 100px auto;
+width: 60%;
+}
+
+
+th, td {
+    padding: 2.5px 10px;
+}
+
+th {
+    text-align:justify;
 }
 
 

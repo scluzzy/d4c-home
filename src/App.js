@@ -6,9 +6,14 @@ import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
-import AboutUs from './components/pages/AboutUs';
+import About from './components/pages/About';
 import ContactUs from './components/pages/ContactUs';
-
+import ScrollToTop from './components/ScrollToTop';
+import Working from './components/pages/Working';
+import ServiceTerms from './components/pages/ServiceTerms';
+import OurStory from './components/pages/OurStory';
+import OurTeam from './components/pages/OurTeam';
+import SupportUs from './components/pages/SupportUs';
 
 /* In the app function we see the use of router component 
 from react-router-dom which is a tool that helps in routing 
@@ -18,15 +23,26 @@ function App() {
   return (
     <>
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Switch>
         <Route path='/' exact component= {Home} />
         <Route path='/services' exact component= {Services} />
         <Route path='/products' exact component= {Products} />
         <Route path='/sign-up' exact component= {SignUp} />
-        <Route path='/about-us' exact component= {AboutUs} />
-        <Route path='/contact-us' exact component= {ContactUs} />
-        
+        <Route path='/about' exact component= {About} />
+        <Route path='/contact-us' exact component= {ContactUs} />        
+        <Route path='/working' exact component= {Working} />        
+        <Route path='/service-terms' exact component= {ServiceTerms} />
+        <Route path='/our-story' exact component= {OurStory} />
+        <Route path='/our-team' exact component= {OurTeam} />
+        <Route path='/our-story' exact component= {OurStory} />
+        <Route path='/support-us' exact component= {SupportUs} />
+
+        <Route path='/documentation'  component={() => { 
+           window.location.href = 'https://github.com/scluzzy/d4c-home/blob/master/Project_Documentation.pdf'; 
+           return null;}}
+         />
         <Route path='/file-share' component={() => { 
            window.location.href = 'https://logu-fosablanca.github.io/Sharelux-g33/'; 
            return null;}}           

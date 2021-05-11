@@ -26,9 +26,10 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/about-us'>How it works</Link>
-            <Link to='/about-us'>Terms of Service</Link>
-            <Link to='/about-us'>Our Story</Link>
+            <Link to='/documentation'>Documentation</Link>
+            <Link to='/our-story'>Our Story</Link>
+            <Link to='/working'>How it works</Link>
+            <Link to='/service-terms'>Terms of Service</Link>
             {/*<Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>*/}
@@ -38,8 +39,9 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/contact-us'>Contact</Link>
-            <Link to='/contact-us'>Support</Link>
+            <Link to='/our-team'>Our team</Link>
+            <Link to='/contact-us'>Contact Us</Link>
+            <Link to='/support-us'>Support Us</Link>
             {/*<Link to='/'>Destinations</Link>
             <Link to='/'>Sponsorships</Link>*/}
           </div>
@@ -72,7 +74,7 @@ function Footer() {
               <img src='./images/d4c-logo.jpg' className='d4c-logo'/> 
             </Link>
           </div>
-          <small class='website-rights'>D4C © 2021</small>
+          <small class='website-rights'>Copyright © 2021 D4C Systems, Inc.</small>
           <div class='social-icons'>
             {/*<Link
               class='social-icon-link facebook'
