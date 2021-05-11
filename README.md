@@ -17,7 +17,7 @@ $ npm install aos
 $ npm start
 
 ```
-
+aos is AnimationOnScroll used for animatiion while scrolling
 
 
 ## How it works?
