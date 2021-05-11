@@ -1,4 +1,6 @@
-import React from 'react';
+import React ,{useEffect} from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css'; 
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
@@ -6,6 +8,13 @@ import { Link } from 'react-router-dom';
 /*This function is used to show/call the footer component */
 
 function Footer() {
+
+
+    //initialise animator
+    useEffect(() => {
+      Aos.init({duration: 1800});  }, [])
+
+
   return (
     <div className='footer-container'>
       
@@ -22,10 +31,10 @@ function Footer() {
         </div>
       </section>  */}
       
-      <div class='footer-links'>
+      <div class='footer-links' >
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>About Us</h2>
+          <div class='footer-link-items' data-aos="fade-up">
+            <h2 data-aos="fade-up" >About Us</h2>
             <Link to='/documentation'>Documentation</Link>
             <Link to='/our-story'>Our Story</Link>
             <Link to='/working'>How it works</Link>
@@ -36,9 +45,9 @@ function Footer() {
             
           </div>
         </div> 
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>Contact Us</h2>
+        <div className='footer-link-wrapper' data-aos="fade-up">
+          <div class='footer-link-items' data-aos="fade-up">
+            <h2 data-aos="fade-up">Contact Us</h2>
             <Link to='/our-team'>Our team</Link>
             <Link to='/contact-us'>Contact Us</Link>
             <Link to='/support-us'>Support Us</Link>
@@ -66,7 +75,7 @@ function Footer() {
 
       </div>
 
-      <section class='social-media'>
+      <section class='social-media' data-aos="fade-up">
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>

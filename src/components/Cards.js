@@ -1,16 +1,24 @@
-import React from 'react';
+import React ,{useEffect} from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css'; 
 import './Cards.css';
 import CardItem from './CardItem';
 
 /* This function is used to load the section under the herosection in the home page*/
 
 function Cards() {
+
+    //initialise animator
+    useEffect(() => {
+      Aos.init({duration: 1650});  }, [])
+
+
   return (
     <div className='cards'>
-      <h1>Check out our creations! </h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+      <h1 data-aos="fade-left"> Check out our creations! </h1>
+      <div className='cards__container' data-aos="fade-right">
+        <div className='cards__wrapper' data-aos="fade-left">
+          <ul className='cards__items' data-aos="fade-right">
             <CardItem
                 /*props, which go to CardItem*/
               src='images/SHARELUX.png'
