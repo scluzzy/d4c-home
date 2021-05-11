@@ -52,7 +52,7 @@ function App() {
            return null;}}           
          />
         <Route path='/video-stream' component={() => { 
-           window.location.href = 'http://localhost:3000/'; 
+           window.location.href = '/'; 
            return null;}}           
          /> 
           
