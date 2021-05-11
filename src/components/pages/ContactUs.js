@@ -5,6 +5,7 @@ function ContactUs() {
     return (
         <div>
             <p className='page-heading'> Contact Us</p>
+            <Footer />
         </div>
     )
 };
