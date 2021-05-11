@@ -73,6 +73,10 @@ $ npm start
  
 #### Footer() in Footer.js
  This function is used to show/call the footer component.
+ _______________________________________________________________________
+ 
+ ![image](https://user-images.githubusercontent.com/64918959/117762817-81292b80-b232-11eb-8d00-50d12766bd37.png)
+this code snippet is used to initilize AnimationsOnScroll
  
  ____________________________________________________________________________________________________________________________
 
