@@ -74,7 +74,6 @@ $ npm start
 #### Footer() in Footer.js
  This function is used to show/call the footer component.
  
- 
- 
+ ____________________________________________________________________________________________________________________________
 
 ###### Full documnetation:- https://github.com/scluzzy/d4c-home/blob/master/Project_Documentation.pdf
