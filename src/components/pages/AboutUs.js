@@ -5,6 +5,7 @@ function AboutUs() {
     return (
     <>
         <p className='page-heading'>About Us</p>
+        <Footer />
         
     </>    
     );
