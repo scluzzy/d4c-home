@@ -95,7 +95,7 @@ function Footer() {
 
             <Link
               class='social-icon-link instagram'
-              to='https://www.instagram.com/'
+              to='/instagram'
               target='_blank'
               aria-label='Instagram'>            
               <i class='fab fa-instagram' />
@@ -111,7 +111,7 @@ function Footer() {
 
             <Link
               class='social-icon-link twitter'
-              to='https://twitter.com/?lang=en'
+              to='/twitter'
               target='_blank'
               aria-label='Twitter'>            
               <i class='fab fa-twitter' />
@@ -119,7 +119,7 @@ function Footer() {
 
             <Link
               class='social-icon-link linkedIn'
-              to='https://www.linkedin.com/linked'
+              to='/linkedin'
               target='_blank'
               aria-label='LinkedIn'>            
               <i class='fab fa-linkedin' />
