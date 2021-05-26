@@ -15,9 +15,9 @@ import OurStory from './components/pages/OurStory';
 import OurTeam from './components/pages/OurTeam';
 import SupportUs from './components/pages/SupportUs';
 
-/* In the app function we see the use of router component 
-from react-router-dom which is a tool that helps in routing 
-to inbuilt paths like the home page, services, and other modules */
+/* In the app function we see the use of router component from 
+react-router-dom which is a tool that helps in routing to inbuilt
+paths like the home page, services, about and other modules */
 
 function App() {
   return (
@@ -55,6 +55,19 @@ function App() {
            window.location.href = '/'; 
            return null;}}           
          /> 
+        <Route path='/instagram' component={() => { 
+           window.location.href = '/https://www.instagram.com/'; 
+           return null;}}           
+         />  
+        <Route path='/twitter' component={() => { 
+           window.location.href = '/https://www.twitter.com/'; 
+           return null;}}           
+         />  
+        <Route path='/linkedin' component={() => { 
+           window.location.href = '/https://www.linkedin.com/'; 
+           return null;}}           
+         /> 
+
           
       </Switch>
     </Router>
