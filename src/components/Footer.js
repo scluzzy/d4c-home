@@ -93,13 +93,12 @@ function Footer() {
               <i class='fab fa-facebook-f' />
             </Link>*/}
 
-            <Link
-              class='social-icon-link instagram'
-              to='https://www.instagram.com/'
-              target='_blank'
-              aria-label='Instagram'>            
+            <a
+              className='social-icon-link instagram'            
+              target="_blank"
+              href="https://www.instagram.com/">            
               <i class='fab fa-instagram' />
-            </Link>
+            </a>
 
             {/*<Link
               class='social-icon-link youtube'
@@ -109,21 +108,19 @@ function Footer() {
               <i class='fab fa-youtube' />
             </Link>*/}
 
-            <Link
-              class='social-icon-link twitter'
-              to='https://twitter.com/?lang=en'
-              target='_blank'
-              aria-label='Twitter'>            
+            <a
+              className='social-icon-link twitter'
+              href='https://twitter.com/?lang=en'
+              target='_blank'>            
               <i class='fab fa-twitter' />
-            </Link>
+            </a>
 
-            <Link
-              class='social-icon-link linkedIn'
-              to='https://www.linkedin.com/linked'
-              target='_blank'
-              aria-label='LinkedIn'>            
+            <a
+              className='social-icon-link linkedIn'
+              href='https://www.linkedin.com/linked'
+              target='_blank'>            
               <i class='fab fa-linkedin' />
-            </Link>
+            </a>
 
           </div>
         </div>
