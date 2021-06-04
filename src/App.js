@@ -15,9 +15,9 @@ import OurStory from './components/pages/OurStory';
 import OurTeam from './components/pages/OurTeam';
 import SupportUs from './components/pages/SupportUs';
 
-/* In the app function we see the use of router component from 
-react-router-dom which is a tool that helps in routing to inbuilt
-paths like the home page, services, about and other modules */
+/* In the app function we see the use of router component 
+from react-router-dom which is a tool that helps in routing 
+to inbuilt paths like the home page, services, and other modules */
 
 function App() {
   return (
@@ -55,18 +55,6 @@ function App() {
            window.location.href = '/'; 
            return null;}}           
          /> 
-        <Route path='/instagram' component={() => { 
-           window.location.href = '/https://www.instagram.com/'; 
-           return null;}}           
-         />  
-        <Route path='/twitter' component={() => { 
-           window.location.href = '/https://www.twitter.com/'; 
-           return null;}}           
-         />  
-        <Route path='/linkedin' component={() => { 
-           window.location.href = '/https://www.linkedin.com/'; 
-           return null;}}           
-         /> 
 
           
       </Switch>
@@ -80,7 +68,6 @@ export default App;
 
 
 /* For using external link as path in react-router:-
-
 <Route path='/privacy-policy' component={() => { 
      window.location.href = 'https://example.com/1234'; 
      return null;
@@ -93,4 +80,3 @@ There is no need to use <Link /> component from react-router.
 If you want to go to external link use an anchor tag.
 <a target="_blank" href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies">Policies</a>
 */
-
